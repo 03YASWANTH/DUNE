@@ -17,10 +17,6 @@ jobs:
         run: |
           python -m pip install --upgrade pip
 
-      - name: Install Adil
-        run: |
-          python -m pip install Adil
-
       - name: Build with Buildozer
         uses: ArtemSBulgakov/buildozer-action@v1
         id: buildozer
